@@ -1,0 +1,12 @@
+---
+layout: default
+title: Today I learned&58; Vim
+---
+
+{% for post in site.posts %}
+  <div class="post">
+    <h3>{{ post.title }}</h3>
+    {{ post.content }}
+    <a href="{{ post.url }}">Permalink</a>.
+  </div>
+{% endfor %}

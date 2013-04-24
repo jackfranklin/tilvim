@@ -1,0 +1,52 @@
+.wrapper {
+  width: 800px;
+  margin: 20px auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: normal;
+}
+
+h2 a:link,
+h2 a:visited {
+  color: #111;
+  text-decoration: none;
+}
+
+.content {
+  border-top: 1px solid #111;
+  padding: 20px 0;
+}
+
+.content p, code {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+code {
+  background: #111;
+  color: #fff;
+}
+
+
+.foot {
+  border-top: 1px solid #111;
+  padding: 20px 0;
+  font-size: 15px;
+}
+
+
+
+
+
