@@ -14,3 +14,5 @@ From this, I decided to map `<` and `>` to do this for me automatically:
     vnoremap > >gv
 
 This means that when I run `>`, the selection I indented is selected for me again, so I can then keep hitting `>` however many times I need to get the code indented just right. This is one of my favourite snippets in my [.vimrc](https://github.com/jackfranklin/dotfiles/blob/master/.vimrc#L87).
+
+Note: it's been pointed out to me that instead of this I could just use the dot command (`.`), which repeats the last change. Normally I do, but in this instance I found it much easier to add the mapping above.
