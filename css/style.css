@@ -34,17 +34,37 @@ h2 a:visited {
   line-height: 26px;
 }
 
-code {
+.post {
+  border-top: 1px solid #111;
+  padding: 10px 0;
+}
+.post:first-of-type {
+  border-top: none;
+}
+
+p > code,
+pre {
   background: #111;
   color: #fff;
 }
 
+pre { padding: 5px; }
+
+.permalink {
+  text-align: right;
+  display: block;
+}
+
+a.permalink:link, a.permalink:visited {
+  color: #111;
+}
 
 .foot {
   border-top: 1px solid #111;
   padding: 20px 0;
   font-size: 15px;
 }
+
 
 
 
