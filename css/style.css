@@ -18,8 +18,16 @@ h2 {
   font-weight: normal;
 }
 
+h1, h3 {
+  font-weight: normal;
+  font-size: 30px;
+  margin: 1em 0;
+}
+
 h2 a:link,
-h2 a:visited {
+h3 a:link,
+h2 a:visited,
+h3 a:visited {
   color: #111;
   text-decoration: none;
 }
@@ -36,7 +44,7 @@ h2 a:visited {
 
 .post {
   border-top: 1px solid #111;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 .post:first-of-type {
   border-top: none;
