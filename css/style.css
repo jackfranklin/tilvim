@@ -1,12 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  background: #f5f5f5;
+  color: #3d3d3d;
+}
+
 .wrapper {
-  width: 800px;
+  max-width: 800px;
+  width: 90%;
   margin: 20px auto;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 a:link, a:visited {
   text-decoration: none;
-  color: blue;
+  color: #008FFF;
 }
 
 a:hover {
@@ -19,7 +27,6 @@ h2 {
 }
 
 h1, h3 {
-  font-weight: normal;
   font-size: 30px;
   margin: 1em 0;
 }
@@ -28,7 +35,7 @@ h2 a:link,
 h3 a:link,
 h2 a:visited,
 h3 a:visited {
-  color: #111;
+  color: #455563;
   text-decoration: none;
 }
 
@@ -38,8 +45,8 @@ h3 a:visited {
 }
 
 .content p, code {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1.125em;
+  line-height: 1.5;
 }
 
 .post {
@@ -52,11 +59,12 @@ h3 a:visited {
 
 p > code,
 pre {
-  background: #111;
+  background: #2C2C2C;
   color: #fff;
+  padding: 0 .25em;
 }
 
-pre { padding: 5px; }
+pre { padding: 1em; }
 
 .permalink {
   text-align: right;
