@@ -3,7 +3,7 @@ layout: post
 title: Binding Caps-lock to Control and Escape
 ---
 
-As a Vim user, the `ESC` key is an important one. To do Vim *the proper way* you're constantly switching in and out of insert mode. The escape key, however, is a fair distance from the fingertips of most typists. The caps-lock key is the polar opposite — it's rarely useful, yet in a prominent position on the keyboard.
+As a Vim user, the `ESC` key is an important one. To do Vim *the proper way* you're constantly switching in and out of insert mode. The escape key, however, is a fair distance from the fingertips of most typists. The caps-lock key is the polar opposite - it's rarely useful, yet in a prominent position on the keyboard.
 
 Many developers rebind their caps-lock key to control. Control is used fairly often (particularly for those spending hours in a shell), but sometimes awkward to reach, especially on laptop keyborads.
 
