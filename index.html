@@ -5,7 +5,10 @@ title: "Today I learned: Vim"
 
 {% for post in site.posts %}
   <div class="post">
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <h3>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span>{{ post.date | date: "%a, %d %b %Y" }}</span>
+    </h3>
     {{ post.content }}
     <a class="permalink" href="{{ post.url }}">Permalink</a>
   </div>

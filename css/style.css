@@ -39,6 +39,8 @@ h3 a:visited {
   text-decoration: none;
 }
 
+h3 span { font-size: 14px; }
+
 .content {
   border-top: 1px solid #111;
   padding: 20px 0;
