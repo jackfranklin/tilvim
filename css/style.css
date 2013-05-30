@@ -1,20 +1,21 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 body {
-  background: #f5f5f5;
-  color: #3d3d3d;
+  background: #fff;
+  color: #0d5888;
 }
 
 .wrapper {
   max-width: 800px;
   width: 90%;
   margin: 20px auto;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 
 a:link, a:visited {
   text-decoration: none;
-  color: #008FFF;
+  color: #0971B2;
+  font-weight: bold;
 }
 
 a:hover {
@@ -22,7 +23,7 @@ a:hover {
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 36px;
   font-weight: normal;
 }
 
@@ -35,17 +36,28 @@ h2 a:link,
 h3 a:link,
 h2 a:visited,
 h3 a:visited {
-  color: #455563;
+  color: #1176b7;
   text-decoration: none;
 }
 
 h1 span,
 h3 span {
-  font-size: 14px;
+  font-size: 11px;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 6px;
+}
+
+.hero {
+  text-align: right;
+}
+
+.hero a {
+  font-weight: normal;
 }
 
 .content {
-  border-top: 1px solid #111;
+  
   padding: 20px 0;
 }
 
