@@ -36,13 +36,24 @@ h2 a:link,
 h3 a:link,
 h2 a:visited,
 h3 a:visited {
-  color: #455563;
+  color: #1176b7;
   text-decoration: none;
 }
 
 h1 span,
 h3 span {
-  font-size: 14px;
+  font-size: 11px;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 6px;
+}
+
+.hero {
+  text-align: right;
+}
+
+.hero a {
+  font-weight: normal;
 }
 
 .content {
