@@ -16,3 +16,7 @@ For a short and sweet alternative, you can write changes (only if any exist) and
 If you prefer to avoid ex commands, you can also use `ZZ` instead which is perhaps the fastest yet as it's just a double tap of the same key.
 
 See `:help :q` for more details.
+
+<hr>
+
+Lovingly typed (in Vim) by [Guy Routledge](http://www.guyroutledge.co.uk)
