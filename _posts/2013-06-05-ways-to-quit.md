@@ -17,6 +17,4 @@ If you prefer to avoid ex commands, you can also use `ZZ` instead which is perha
 
 See `:help :q` for more details.
 
-<hr>
-
 Lovingly typed (in Vim) by [Guy Routledge](http://www.guyroutledge.co.uk)
