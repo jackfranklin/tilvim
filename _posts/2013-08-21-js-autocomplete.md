@@ -31,3 +31,10 @@ Then fire up Vim in a JS project, and start typing. Intelligent auto completion!
 Hit `tab` to cycle through the suggestions, or keep typing to narrow it down. It's not perfect - both YCM and Tern are still relatively young, but they already make a powerful combo and hopefully will only improve with time.
 
 TernJS also has other features to find the definition of things, and these are documented in the [Tern for Vim README](https://github.com/marijnh/tern_for_vim).
+
+If, like me, you're also a SnipMate user, you might want to remap Snipmate so it doesn't try to use `tab` by default. This is easily done:
+
+    imap <C-J> <Plug>snipMateNextOrTrigger
+    smap <C-J> <Plug>snipMateNextOrTrigger
+
+That maps it to `Control J`, but of course you can change it to whatever you wish.
