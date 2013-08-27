@@ -1,0 +1,30 @@
+---
+layout: post
+title: In Place code execution with Pipe2Eval
+---
+
+<p>A while ago I wrote about <a href="http://tilvim.com/2013/06/24/live-ruby-execution.html">executing Ruby code in Vim</a>. That was cool, but I didn't like only having that functionality available to Vim.</p>
+
+<p>Then I found the <a href="https://github.com/zweifisch/pipe2eval">Pipe2Eval</a> Vim plugin. Pipe2Eval works similarly but has much improved support, including Ruby, JS, Python, PHP, CoffeeScript and so on.</p>
+
+<p>Installation is straightforward and unlike the other solution there's no gems to install.</p>
+
+<p>By default, Pipe2Eval tries to store the temporary files it needs to <code>/dev/shm/</code>. On Mac OS X however, the <code>/dev/</code> folder is well locked down permissions wise, so what I did was create a new folder, and export the environment variable Pipe2Eval looks for:</p>
+
+<pre><code>
+$ mkdir /tmp/shm
+$ export PIP2EVAL_TMP_FILE_PATH=/tmp/shm
+</code></pre>
+
+<p>You may wish to add that second line to your <code>zshrc</code>/<code>bashrc</code> or similar.
+
+<p>Once that's done, the plugin should work just fine. Highlight some lines you want to execute with Visual mode, and then hit the spacebar.</p>
+
+<p>Here's an example of it working for both Ruby and JavaScript.</p>
+
+<iframe name='quickcast' src='http://quick.as/embed/q7eh4zn' scrolling='no' frameborder='0' width='100%'></iframe>
+<script>
+!function(){function n(){var n=document.getElementsByName('quickcast')
+for(var e in n){var t=n[e].offsetWidth
+n[e].height=t/2.55+'px'}}n(),window.onresize=n,window.addEventListener('message',function(n){if(n.data.indexOf('//quick.as/') != -1)window.location.href=n.data},!1)}()
+</script>
