@@ -20,7 +20,8 @@ if you like, but I think it's more readable this way.
 
 The various conditions in the if statment ensure that the line position is still
 valid, in case the file has been changed by some other means since it was last
-open (think version control!).
+open (think version control!). Credit goes to [Gary Bernhardt]
+(http://twitter.com/garybernhardt) for this.
 
 I've had this in my .vimrc for a while, and it's been working great, but there's
 one thing about it that has been winding me up about it: whenever I write or
