@@ -45,3 +45,6 @@ in the future.
 Now when I write or edit a commit message, the cursor is always on the first
 line, which is pretty much always going to be where I want it. Sweet!
 
+_This guest post hastily cobbled together by [Will Pragnell]
+(http://twitter.com/willpragnell)._
+
