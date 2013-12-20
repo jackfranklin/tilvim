@@ -13,9 +13,7 @@ There's three parts to this:
 
 Installing the gem is simple:
 
-```
-gem install rcodetools
-```
+    gem install rcodetools
 
 You then need to install the [xmpfilter vim plugin](https://github.com/t9md/vim-ruby-xmpfilter). I recommend going down the Pathogen route for installing plugins, but do it whichever way you prefer.
 
