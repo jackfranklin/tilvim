@@ -32,7 +32,7 @@ After all your `Bundle` calls, you are free to add whatever you like to your vim
 
     filetype on
 
-Now, you can install your plugins by running `:BundleInstall` within Vim. In the future, if you want to update your plugins, you can run `:BundleInstall!` to update.
+Now, you can install your plugins by running `:BundleInstall` within Vim (you'll need to restart Vim or source your vimrc once more before). In the future, if you want to update your plugins, you can run `:BundleInstall!` to update. If you remove a plugin from your vimrc, you can run `:BundleClean` to remove the old plugin.
 
 For me, the main advantage of Vundle is less overhead on my part. I've been able to delete my Ruby script for managing my Vim plugins, and the [relevant commit in my dotfiles](https://github.com/jackfranklin/dotfiles/commit/62861ec9e0c6b811b783298ea1ffa994401686e0) shows just how much I was able to delete. Keeping the configuration within the `vimrc` and just using Vundle's functions to pull everything together makes a lot of sense.
 
