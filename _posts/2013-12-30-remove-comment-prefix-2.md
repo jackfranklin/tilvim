@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Automatic Comment Prefixing Revisisted"
+title: "Automatic Comment Prefixing Revisited"
 ---
 
 A while back, I wrote about [removing Vim's automatic comment prefixing](http://tilvim.com/2013/05/29/comment-prefix.html). This behaviour is turned on by default, and is best shown with an example:
