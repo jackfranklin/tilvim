@@ -9,3 +9,4 @@ I find `@:` useful to repeat commands such as `:cn` / `:cp` to navigate the quic
 
 See `:help @:` for more.
 
+_Guest post by [Matt Walker (@_walkermatt)](http://twitter.com/_walkermatt)._
