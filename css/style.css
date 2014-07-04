@@ -9,7 +9,7 @@ body {
   max-width: 800px;
   width: 90%;
   margin: 20px auto;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
 }
 
@@ -95,7 +95,12 @@ pre {
   border: 1px solid #e1edf1;
 }
 
-pre { padding: 1em; }
+pre { 
+    padding: 1em; 
+    /* optimized for mobile */
+    min-width: 200px;
+    overflow: auto;
+}
 
 .permalink {
   text-align: right;
